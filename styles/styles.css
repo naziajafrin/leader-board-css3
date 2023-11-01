@@ -1,3 +1,27 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+body{
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: #FFFFFF;
+    /* align-items: center; */
+    width: 870px;
+}
+.top{
+    padding: 30px;
+    /* width: 870px; */
+}
+h2{
+    color: #562EFF;
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
