@@ -14,23 +14,75 @@ main{
     background-color: #FFFFFF;
     /* align-items: center; */
     width: 870px;
-}
-.top{
     padding: 30px;
+    border-radius: 5px;
+    /* gap: 21px; */
+}
+
+/* player style  */
+.top{
+    /* padding: 30px; */
     /* width: 870px; */
 }
-h2{
+.title{
     color: #562EFF;
+    margin-top: 0px;
 }
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
 }
 .player{
     display: flex;
     align-items: center;
+    column-gap: 15px;
 }
 .player img{
     width: 56px;
     height: 56px;
+}
+.player-name{
+    font-size: 18px;
+}
+.hr-gap{
+    margin: 30px 0px 30px;
+}
+
+/* blog style */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    grid-column-gap: 30px;
+}
+.blog{
+    display: flex;
+    gap: 16px;
+}
+.blog .thumbnail img{
+    height: 127px;
+    width: 177px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
+}
+
+/* course style  */
+
+.course-container{
+    margin-top: 21px;
+}
+.course .course-banner img{
+    height: 104px;
+    width: 224px;
 }
