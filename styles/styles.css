@@ -169,3 +169,33 @@ main{
     background-color: #fabcae;
     border-radius: 8px;
 }
+
+
+/* media queries */
+
+@media only screen and (max-width:576px) {
+    .navigation-bar,.navigation,.container{
+        width: 100%;
+        /* padding-right: 0; */
+    }
+    .navigation{
+        flex-direction: column;
+        /* text-align: center; */
+    }
+    .title{
+        text-align: center;
+    }
+    .top{
+        padding: 0 15px;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blogs, .courses{
+        /* background-color: #ED6B4F; */
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    
+    
+}
